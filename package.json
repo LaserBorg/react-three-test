@@ -1,12 +1,13 @@
 {
   "name": "react-three-test",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "React-Three-Fiber Demo",
   "main": "src/index.js",
   "dependencies": {
     "@react-three/drei": "9.87.1",
     "@react-three/fiber": "8.14.6",
-    "@react-three/postprocessing": "^2.14.13",
+    "@react-three/postprocessing": "^2.19.1",
+    "n8ao": "^1.9.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
