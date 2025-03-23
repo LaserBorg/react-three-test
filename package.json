@@ -1,0 +1,31 @@
+{
+  "name": "react-three-test",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.87.1",
+    "@react-three/fiber": "8.14.6",
+    "@react-three/postprocessing": "^2.14.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.157.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
