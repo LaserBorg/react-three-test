@@ -2,6 +2,8 @@
 
 using PCF-Softshadows and [N8AO Ambient Occlusion](https://github.com/N8python/n8ao)
 
+![warehouse](docs/warehouse.jpg)
+
 ## Install and run
 
 run in Linux oder WSL:

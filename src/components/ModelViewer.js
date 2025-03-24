@@ -48,10 +48,10 @@ const ModelViewer = () => {
                 shadows={{ type: THREE.PCFSoftShadowMap }}
                 gl={{ antialias: true }}
             >
-                <ambientLight intensity={0.2} />
+                <ambientLight intensity={0.5} />
                 <directionalLight
                     position={[10, 10, 10]}
-                    intensity={5}
+                    intensity={4}
                     castShadow
                     shadow-mapSize-width={4096}
                     shadow-mapSize-height={4096}
@@ -63,7 +63,7 @@ const ModelViewer = () => {
                 />
                 <pointLight
                     position={[-15, 10, -15]}
-                    intensity={0.2}
+                    intensity={0.5}
                     color={new THREE.Color(0.8, 0.8, 1)}
                     decay={0}
                     castShadow={false}
@@ -77,12 +77,12 @@ const ModelViewer = () => {
                 <EffectComposer>
                     <N8AO
                         aoRadius={2.0}
-                        intensity={5.0}
+                        intensity={2.0}
                         distanceFalloff={0.5}
                         color="black"
                         aoSamples={16}
-                        denoiseSamples={12}
-                        denoiseRadius={6}
+                        denoiseSamples={16}
+                        denoiseRadius={2.0}
                     />
                 </EffectComposer>
             </Canvas>
